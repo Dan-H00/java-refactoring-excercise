@@ -1,4 +1,4 @@
-package com.mcserby.training.refactoring;
+package refactor;
 
 public class Locale {
     private final String language;

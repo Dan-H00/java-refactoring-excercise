@@ -1,6 +1,6 @@
-import com.mcserby.training.refactoring.InternationalValues;
-import com.mcserby.training.refactoring.Locale;
-import com.mcserby.training.refactoring.Translation;
+import refactor.InternationalValues;
+import refactor.Locale;
+import refactor.Translation;
 
 import java.util.Arrays;
 import java.util.Collections;
