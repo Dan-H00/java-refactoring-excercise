@@ -1,7 +1,5 @@
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.extension.ExtendWith;
-import org.mockito.Mock;
 import refactor.InternationalValues;
 
 import java.util.Arrays;
@@ -19,7 +17,11 @@ public class MapperTest {
 
     @Test
     public void testNameMap() {
-        Mapper mapper = new Mapper();
-        System.out.println(mapper.mapNames(values));
+        System.out.println(Mapper.mapNames(values));
+    }
+
+    @Test
+    public void testDescriptionMap() {
+        System.out.println(Mapper.mapDescriptions(values));
     }
 }
