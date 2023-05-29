@@ -19,4 +19,6 @@ public class Translation {
     public Locale getLocale() {
         return locale;
     }
+
+
 }

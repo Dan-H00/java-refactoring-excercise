@@ -1,6 +1,7 @@
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import refactor.InternationalValues;
+import refactor.Translation;
 
 import java.util.Arrays;
 import java.util.List;
@@ -10,18 +11,22 @@ public class MapperTest {
 
     @BeforeEach
     public void setUp() {
-        values = Arrays.asList(
-                new InternationalValues()
-        );
+        values = Arrays.asList(new InternationalValues(), new InternationalValues());
     }
 
     @Test
-    public void testNameMap() {
-        System.out.println(Mapper.mapNames(values));
+    public void testNameMap() throws ClassNotFoundException {
+        List<Translation> translations = Mapper.mapNames(values);
+        for(Translation tr : translations) {
+            System.out.println(tr.getValues());
+        }
     }
 
     @Test
     public void testDescriptionMap() {
-        System.out.println(Mapper.mapDescriptions(values));
+        List<Translation> translations = Mapper.mapDescriptions(values);
+        for(Translation tr : translations) {
+            System.out.println(tr.getValues());
+        }
     }
 }

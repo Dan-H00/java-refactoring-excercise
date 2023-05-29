@@ -2,66 +2,61 @@ package refactor;
 
 public class InternationalValues {
 
-//    private Details uk = new Details().name("UK").description("The United Kingdom");
-    private Details uk = null;
+    private Details uk = new Details().name("UK").description("The United Kingdom");
 
-    private Details nl = null;
+    private Details nl = new Details().name("NL").description("The Netherlands");
 
-    private Details de = null;
+    private Details de = new Details().name("DE").description("Germany");
 
-    private Details fr = null;
+    private Details fr = new Details().name("FR").description("France");
 
-    private Details es = null;
+    private Details es = new Details().name("ES").description("Spain");
 
-    private Details it = null;
+    private Details it = new Details().name("IT").description("Italy");
 
-    private Details at = null;
+    private Details at = new Details().name("AT").description("Austria");
 
-    private Details chFr = null;
+    private Details chFr = new Details().name("CHFR").description("CH FR");
 
-    private Details chDe = null;
+    private Details chDe = new Details().name("CHDE").description("CH DE");
 
-    private Details ru = null;
+    private Details ru = new Details().name("RU").description("Russia");
 
-    private Details hr = null;
+    private Details hr = new Details().name("HR").description("Hungary");
 
-    private Details gr = null;
+    private Details gr = new Details().name("GR").description("Greece");
 
-    private Details sl = null;
+    private Details sl = new Details().name("SL").description("Sierra Leone");
 
-    private Details chIt = null;
+    private Details chIt = new Details().name("CHIT").description("CH IT");
 
-    private Details beFr = null;
+    private Details beFr = new Details().name("BEFR").description("BE FR");
 
-    private Details luDe = null;
+    private Details luDe = new Details().name("LUDE").description("LU DE");
 
-    private Details li = null;
+    private Details li = new Details().name("LI").description("Liechtenstein");
 
-    private Details pl = null;
+    private Details pl = new Details().name("PL").description("Poland");
 
-    private Details bl = null;
+    private Details bl = new Details().name("BL").description("Saint Barthelemy");
 
-    private Details ua = null;
+    private Details ua = new Details().name("UA").description("Ukraine");
 
-    private Details cz = null;
+    private Details cz = new Details().name("CZ").description("Czechia");
 
-    private Details sv = null;
+    private Details sv = new Details().name("SV").description("El Salvador");
 
-    private Details caEs = null;
+    private Details caEs = new Details().name("CAES").description("CA ES");
 
-    private Details zh = null;
+    private Details zh = new Details().name("ZH").description("Zurich");
 
-    private Details beNl = null;
+    private Details beNl = new Details().name("BENL").description("BE NL");
 
-    private Details luFr = null;
+    private Details luFr = new Details().name("LUFR").description("LU FR");
 
-    public Details getUk() {
-        return uk;
-    }
+    public Details getUk() { return uk;}
 
-    public Details getNl() {
-        return nl;
-    }
+    public Details getNl() { return nl; }
 
     public Details getDe() {
         return de;
