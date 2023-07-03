@@ -11,7 +11,7 @@ public class MapperTest {
 
     @BeforeEach
     public void setUp() {
-        values = Arrays.asList(new InternationalValues(), new InternationalValues());
+        values = Arrays.asList(new InternationalValues());
     }
 
     @Test
